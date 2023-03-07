@@ -1,4 +1,4 @@
-package AbstractFactoryDesignPattern;
+package AbstractFactoryDesignPattern.Services;
 
 public interface Service {
 

@@ -11,8 +11,8 @@ public abstract class TransportFactory {
             case "plane" -> new PlaneTransport();
             case "truck" -> new TruckTransport();
             default -> {
-                System.out.println("We don't have " + transportType.concat(" Transport!"));
-                yield null;
+                System.out.println("We don't have " + transportType.concat(" Transport!\n So we sent you a TruckTransport instead as our default option!"));
+                yield new TruckTransport();
             }
         };
     }

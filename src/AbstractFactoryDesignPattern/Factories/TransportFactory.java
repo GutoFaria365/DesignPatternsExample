@@ -1,4 +1,7 @@
-package AbstractFactoryDesignPattern;
+package AbstractFactoryDesignPattern.Factories;
+
+import AbstractFactoryDesignPattern.Services.Service;
+import AbstractFactoryDesignPattern.Transports.Transport;
 
 public abstract class TransportFactory {
 
@@ -13,8 +16,6 @@ public abstract class TransportFactory {
         service.typeOfService();
         return service;
     }
-
-
 
 
     public abstract Transport makeTransport();
