@@ -1,4 +1,4 @@
-package DecoratorDesignPattern.pizzabuilder;
+package DecoratorDesignPattern.PizzaBuilder;
 
 public class BasePizza implements Pizza {
 //    @Autowired

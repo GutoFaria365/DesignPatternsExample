@@ -1,6 +1,9 @@
-package DecoratorDesignPattern.pizzabuilder;
+package DecoratorDesignPattern.PizzaBuilder.PizzaToppings;
 
-public class MushroomTopping extends PizzaToppingsDecorator{
+import DecoratorDesignPattern.PizzaBuilder.Pizza;
+import DecoratorDesignPattern.PizzaBuilder.PizzaToppingsDecorator;
+
+public class MushroomTopping extends PizzaToppingsDecorator {
 
     private Pizza incompletePizza;
 

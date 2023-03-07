@@ -1,9 +1,9 @@
 package DecoratorDesignPattern;
 
-import DecoratorDesignPattern.pizzabuilder.BasePizza;
-import DecoratorDesignPattern.pizzabuilder.MushroomTopping;
-import DecoratorDesignPattern.pizzabuilder.PepperoniTopping;
-import DecoratorDesignPattern.pizzabuilder.Pizza;
+import DecoratorDesignPattern.PizzaBuilder.BasePizza;
+import DecoratorDesignPattern.PizzaBuilder.PizzaToppings.MushroomTopping;
+import DecoratorDesignPattern.PizzaBuilder.PizzaToppings.PepperoniTopping;
+import DecoratorDesignPattern.PizzaBuilder.Pizza;
 
 public class App {
     public static void main(String[] args) {

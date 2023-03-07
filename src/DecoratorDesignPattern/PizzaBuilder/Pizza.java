@@ -1,4 +1,4 @@
-package DecoratorDesignPattern.pizzabuilder;
+package DecoratorDesignPattern.PizzaBuilder;
 
 public interface Pizza {
     String getDescription();
