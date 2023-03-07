@@ -1,6 +1,6 @@
-package DecoratorDesignPattern.pizzabuilder;
+package DecoratorDesignPattern.PizzaBuilder;
 
-abstract class PizzaToppingsDecorator implements Pizza {
+public abstract class PizzaToppingsDecorator implements Pizza {
 
     private Pizza incompletePizza;
 
