@@ -1,17 +1,21 @@
 package FactoryDesignPattern;
 
+
+
 public abstract class TransportFactory {
 
-    public Transport createTransport() {
-            Transport transport = makeTransport();
-            transport.typeOfTransport();
-            return transport;
+    public static Transport createTransport(String transportType) {
+
+        return switch (transportType.toLowerCase()) {
+            case "ship" -> new ShipTransport();
+            case "plane" -> new PlaneTransport();
+            case "truck" -> new TruckTransport();
+            default -> {
+                System.out.println("We don't have " + transportType.concat(" Transport!"));
+                yield null;
+            }
+        };
     }
 
-
-    public abstract Transport makeTransport();
-
+    public abstract void typeOfDrink();
 }
-
-
-

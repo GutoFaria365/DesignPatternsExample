@@ -1,6 +1,6 @@
 package FactoryDesignPattern;
 
-
 public interface Transport {
-    void typeOfTransport();
+
+    public default void typeOfTransport() {}
 }
