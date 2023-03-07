@@ -16,12 +16,13 @@ public class App {
                 DrinkBottle myJuice = DrinkBottleFactory.createDrinkBottle("juice");
                 DrinkBottle myWine = DrinkBottleFactory.createDrinkBottle("wine");
 
+                DrinkBottle mywine2 = new WineBottle();
+
                 myWater.typeOfDrink();
                 System.out.println("-".repeat(42));
                 myWhisky.typeOfDrink();
                 myJuice.typeOfDrink();
                 myWine.typeOfDrink();
-
         }
 
 
