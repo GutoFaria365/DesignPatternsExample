@@ -2,10 +2,10 @@ package DecoratorDesignPattern.pizzabuilder;
 
 public class MushroomTopping extends PizzaToppingsDecorator{
 
-    private Pizza innerPizza;
+    private Pizza incompletePizza;
 
-    public MushroomTopping(Pizza innerPizza) {
-        super(innerPizza);
+    public MushroomTopping(Pizza incompletePizza) {
+        super(incompletePizza);
     }
 
     public String getDescription() {

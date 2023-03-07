@@ -2,10 +2,10 @@ package DecoratorDesignPattern.pizzabuilder;
 
 public class PepperoniTopping extends PizzaToppingsDecorator {
 
-    private Pizza innerPizza;
+    private Pizza incompletePizza;
 
-    public PepperoniTopping(Pizza innerPizza) {
-        super(innerPizza);
+    public PepperoniTopping(Pizza incompletePizza) {
+        super(incompletePizza);
     }
 
     public String getDescription() {

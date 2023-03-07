@@ -2,17 +2,17 @@ package DecoratorDesignPattern.pizzabuilder;
 
 abstract class PizzaToppingsDecorator implements Pizza {
 
-    private Pizza innerPizza;
+    private Pizza incompletePizza;
 
-    public PizzaToppingsDecorator(Pizza innerPizza) {
-        this.innerPizza = innerPizza;
+    public PizzaToppingsDecorator(Pizza incompletePizza) {
+        this.incompletePizza = incompletePizza;
     }
 
     public String getDescription() {
-        return innerPizza.getDescription();
+        return incompletePizza.getDescription();
     }
 
     public double getCost() {
-        return innerPizza.getCost();
+        return incompletePizza.getCost();
     }
 }

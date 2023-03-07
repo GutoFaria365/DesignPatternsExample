@@ -1,10 +1,10 @@
 package DecoratorDesignPattern.pizzabuilder;
 
-public class BasicPizza implements Pizza {
+public class BasePizza implements Pizza {
 //    @Autowired
 //    BasicPizza pizza;
     public String getDescription() {
-        return "Basic pizza";
+        return "Base pizza";
     }
 
     public double getCost() {
