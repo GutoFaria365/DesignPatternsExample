@@ -1,11 +1,11 @@
 package DecoratorDesignPattern.PizzaBuilder;
 
-public class BasePizza implements Pizza {
+public class MediumPizza implements Pizza {
     public String getDescription() {
-        return "Base pizza";
+        return "Medium pizza";
     }
 
     public double getCost() {
-        return 10.0;
+        return 15.0;
     }
 }

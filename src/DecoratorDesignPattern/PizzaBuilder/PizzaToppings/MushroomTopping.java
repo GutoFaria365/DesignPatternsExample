@@ -1,7 +1,6 @@
 package DecoratorDesignPattern.PizzaBuilder.PizzaToppings;
 
 import DecoratorDesignPattern.PizzaBuilder.Pizza;
-import DecoratorDesignPattern.PizzaBuilder.PizzaToppingsDecorator;
 
 public class MushroomTopping extends PizzaToppingsDecorator {
 

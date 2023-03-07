@@ -1,4 +1,6 @@
-package DecoratorDesignPattern.PizzaBuilder;
+package DecoratorDesignPattern.PizzaBuilder.PizzaToppings;
+
+import DecoratorDesignPattern.PizzaBuilder.Pizza;
 
 public abstract class PizzaToppingsDecorator implements Pizza {
 
