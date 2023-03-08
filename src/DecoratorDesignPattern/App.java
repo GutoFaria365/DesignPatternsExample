@@ -2,6 +2,7 @@ package DecoratorDesignPattern;
 
 import DecoratorDesignPattern.PizzaBuilder.BasePizza;
 import DecoratorDesignPattern.PizzaBuilder.MediumPizza;
+import DecoratorDesignPattern.PizzaBuilder.PizzaToppings.HamTopping;
 import DecoratorDesignPattern.PizzaBuilder.PizzaToppings.MushroomTopping;
 import DecoratorDesignPattern.PizzaBuilder.PizzaToppings.PepperoniTopping;
 import DecoratorDesignPattern.PizzaBuilder.Pizza;
@@ -18,6 +19,9 @@ public class App {
 
         Pizza mediumWIthPP =new PepperoniTopping(new PepperoniTopping(new MediumPizza()));
         printPizza(mediumWIthPP);
+
+        Pizza mediumWithHH = new HamTopping(new HamTopping(new MediumPizza()));
+        printPizza(mediumWithHH);
 
     }
 
